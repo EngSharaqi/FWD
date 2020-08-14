@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+                integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+                integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="public/stylesheet/main.css">
+        <link rel="stylesheet" href="public/stylesheet/postal.css">
+        <title>FWD | طرودي البريدية</title>
+</head>
+
+<body>
+        <!-- header -->
+        <div class="row">
+                <div class="header">
+                        <div class="container">
+                                <ul class="left">
+                                        <li style="cursor: pointer"><a href="login.html"><i class="fas fa-power-off"></i></a></li>
+                                </ul>
+                                <ul class="center">
+
+                                        <li><a href="postal-fee.html">رسوم طرودي</a></li>
+                                        <span class="border"></span>
+                                        <li><a href="dues.html">مستحقاتي المالية</a></li>
+                                        <span class="border"></span>
+                                        <li><a href="payment.html">دفعاتي المالية</a></li>
+                                        <span class="border"></span>
+                                        <li class="active"><a href="postal.html" class="active">طرودي البريدية</a></li>
+                                        <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                                        <li class="last-li">مساحة امنة لشعارك <i class="fas fa-question-circle"></i></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+        <div class="row">
+                <div class="container" style="padding: 0 135px;">
+                        <div class="row">
+                                <div class="col-md" style="text-align: left">
+                                        <button class="left-b"><i class="fas fa-print"></i> طباعة</button>
+                                        <button class="left-b"><i class="fas fa-file-excel"></i> تصدير</button>
+                                </div>
+                                <div class="col-md" style="text-align: right">
+                                        <button class="right-b filter-btn"><i class="fas fa-filter"></i> فرز الطرود</button>
+                                        <button class="right-b"><i class="fas fa-cog"></i> إدارة الطرود</button>
+                                        <button class="right-b add-btn"><i class="fas fa-plus-circle"></i> إضافة</button>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="row">
+                <div class="container">
+                        <div class="table">
+                                <div class="container">
+                                        <div class="row">
+                                                <ul>
+                                                        <ul>
+                                                                <li><button class="left-b" style="color: #fff; background-color: #4b74ff"><i
+                                                                                        class="fas fa-search"></i>
+                                                                                بحث</button></li>
+                                                                <li><input type="text" placeholder="رقم التتبع"></li>
+                                                                <li class="active"><input type="text" placeholder="رقم الهاتف"></li>
+                                                        </ul>
+
+                                                        <li><input type="text" placeholder="إسم المستلم"></li>
+                                                        <li class="txt" style="font-size: 14px; font-weight: 600">طرودي
+                                                                البريدية</li>
+                                                </ul>
+                                        </div>
+                                        <div class="df-table">
+                                                <div class="row th">
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-3">إجراء</div>
+                                                                        <div class="col-lg-9">التاريخ</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-5">مبلغ التحصيل</div>
+                                                                        <div class="col-lg-3">الحالة</div>
+                                                                        <div class="col-lg-4">رقم الهاتف</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-4">المدينة</div>
+                                                                        <div class="col-lg-6">إسم المستخدم</div>
+                                                                        <div class="col-lg-2">#</div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+
+                                                <div class="row th tr">
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-3"><i class="fas fa-trash-alt"></i><i
+                                                                                        class="fas fa-edit"></i></div>
+                                                                        <div class="col-lg-9">pm 10:18 2020/06/12</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-5">120 = 60 + 60</div>
+                                                                        <div class="col-lg-3">مدفوع</div>
+                                                                        <div class="col-lg-4">00201554501407</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-4">الداخل 48</div>
+                                                                        <div class="col-lg-6">محمد شراقي</div>
+                                                                        <div class="col-lg-2">98765</div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row th tr">
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-3"><i class="fas fa-trash-alt"></i>
+                                                                                <i class="fas fa-edit"></i></div>
+                                                                        <div class="col-lg-9">pm 10:18 2020/06/12</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-5">120 = 60 + 60</div>
+                                                                        <div class="col-lg-3">مدفوع</div>
+                                                                        <div class="col-lg-4">00201554501407</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-4">الداخل 48</div>
+                                                                        <div class="col-lg-6">محمد شراقي</div>
+                                                                        <div class="col-lg-2">98765</div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row th tr">
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-3"><i class="fas fa-trash-alt"></i>
+                                                                                <i class="fas fa-edit"></i></div>
+                                                                        <div class="col-lg-9">pm 10:18 2020/06/12</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-5">120 = 60 + 60</div>
+                                                                        <div class="col-lg-3">مدفوع</div>
+                                                                        <div class="col-lg-4">00201554501407</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-4">الداخل 48</div>
+                                                                        <div class="col-lg-6">محمد شراقي</div>
+                                                                        <div class="col-lg-2">98765</div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row th tr">
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-3"><i class="fas fa-trash-alt"></i>
+                                                                                <i class="fas fa-edit"></i></div>
+                                                                        <div class="col-lg-9">pm 10:18 2020/06/12</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-5">120 = 60 + 60</div>
+                                                                        <div class="col-lg-3">مدفوع</div>
+                                                                        <div class="col-lg-4">00201554501407</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-4">الداخل 48</div>
+                                                                        <div class="col-lg-6">محمد شراقي</div>
+                                                                        <div class="col-lg-2">98765</div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row th tr">
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-3"><i class="fas fa-trash-alt"></i>
+                                                                                <i class="fas fa-edit"></i></div>
+                                                                        <div class="col-lg-9">pm 10:18 2020/06/12</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-5">120 = 60 + 60</div>
+                                                                        <div class="col-lg-3">مدفوع</div>
+                                                                        <div class="col-lg-4">00201554501407</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-4">الداخل 48</div>
+                                                                        <div class="col-lg-6">محمد شراقي</div>
+                                                                        <div class="col-lg-2">98765</div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row th tr">
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-3"><i class="fas fa-trash-alt"></i>
+                                                                                <i class="fas fa-edit"></i></div>
+                                                                        <div class="col-lg-9">pm 10:18 2020/06/12</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-5">120 = 60 + 60</div>
+                                                                        <div class="col-lg-3">مدفوع</div>
+                                                                        <div class="col-lg-4">00201554501407</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-4">الداخل 48</div>
+                                                                        <div class="col-lg-6">محمد شراقي</div>
+                                                                        <div class="col-lg-2">98765</div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="row th tr">
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-3"><i class="fas fa-trash-alt"></i>
+                                                                                <i class="fas fa-edit"></i></div>
+                                                                        <div class="col-lg-9">pm 10:18 2020/06/12</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-5">120 = 60 + 60</div>
+                                                                        <div class="col-lg-3">مدفوع</div>
+                                                                        <div class="col-lg-4">00201554501407</div>
+
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-lg">
+                                                                <div class="row">
+                                                                        <div class="col-lg-4">الداخل 48</div>
+                                                                        <div class="col-lg-6">محمد شراقي</div>
+                                                                        <div class="col-lg-2">98765</div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="add-table">
+                <div class="row">
+                        <div class="col-lg">
+                                <div class="left-form">
+                                        <div class="txt">معلومات الطرد</div>
+                                        <input class="cust-inp" placeholder="*محتوى الطرد">
+
+
+                                        <input type="text" placeholder="مبلغ التحصيل">
+                                        <input class="cust-inp" placeholder="ملاحظات">
+
+                                        <div class="row btn-save">
+                                                <button type="submit"><i class="fas fa-check"></i> حفظ</button>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-lg">
+                                <div class="right-form">
+                                        <div style="margin: 0 auto">
+                                                <div class="txt">معلومات المستلم</div>
+                                                <input type="text" required placeholder="اسم المستلم *">
+                                                <select class="custom-select" name="city" id="city" required>
+                                                        <option value="def">المدينة</option>
+                                                </select>
+                                                <input type="text" required placeholder="العنوان *">
+                                                <input type="text" required placeholder="رقم الهاتف *">
+                                                <input type="text" placeholder="رقم الهاتف 2">
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="filter-table">
+                <form action="/filter" method="post">
+                        <div class="overlay">
+                                        <div class="filter-card">
+                                                <div class="row">
+                                                        <ul style="width: 100%; display: flex; justify-content: space-between">
+                                                                <li class="close-filter-card"><i class="fas fa-times-circle"></i></li>
+                                                                <li style="font-size: 14px">فرز الطرود</li>
+                                                        </ul>
+                                                </div>
+                                                <div class="row">
+                                                                <select class="custom-select" name="city-filter" id="city-filter"><option value="city-f">المدينة</option></select>
+                                                                <select class="custom-select" name="status-filter" id="status-filter"><option value="status-f">الحالة</option></select>
+                                                                <input type="text" name="cash" id="cash" placeholder="الصافي للمرسل">
+                                                                <div style="display: flex; justify-content: space-between; width: 100%">
+                                                                        <input style="margin-right: 7.5px" type="date" class="half-inp" placeholder="الى تاريخ">
+                                                                        <input style="margin-left: 7.5px" type="date" class="half-inp" placeholder="من تاريخ">
+                                                                </div>
+                                                                <button class="right-b filter-btn"><i class="fas fa-filter"></i> فرز</button>
+                                                                              
+                                                        </div>
+                
+                                        </div>
+                                </div>
+                        </form>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo="
+                crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+                crossorigin="anonymous"></script>
+        <script src="public/javascript/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+a { color: unset }
+.active{ color: #4b74ff }
+
+.header { width: 100% }
+
+.header ul { display: inline-block }
+
+.header ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 600;
+}
+.header .container{ padding: 50px 150px }
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+    float: right;
+    
+}
+
+.right { float: right }
+
+.last-li {
+	margin-left: 50px;
+	padding: 0 !important;
+}
+.border {
+	border: 0 !important;
+	height: 10px;
+	width: 1px;
+	display: inline-block;
+	background: #000;
+}
+.center li{ padding: 0 10px }
+
+/* power-off */
+.svg-inline--fa.fa-power-off.fa-w-16, .svg-inline--fa.fa-times-circle.fa-w-16 {
+	color: #ff7070;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+/* question */
+.svg-inline--fa.fa-question-circle.fa-w-16 {
+	font-size: 20px;
+	margin-left: 6px;
+	padding: 1px 0 0px;
+}
+
+/* home */
+.svg-inline--fa.fa-home.fa-w-18 {
+	/* color: #000; */
+	font-size: 14px;
+}
+
+.welcome{
+    width: 100%;
+    display: block;
+    direction: rtl;
+    text-align: right
+}
+
+.welcome .container {
+	padding: 0px 140px;
+}
+
+.welcome p {
+	text-align: right;
+	padding: 10px;
+	background: #edeff7;
+	width: auto;
+	display: inline-block;
+	direction: rtl;
+	border-radius: 7px;
+	font-size: 14px;
+}
+
+.svg-inline--fa.fa-comment.fa-w-16, .svg-inline--fa.fa-funnel-dollar.fa-w-20 {
+	color: #4b74ff;
+	margin-left: 5px;
+}
+
+/* search icon, lock (login page), unlock (forget password page) */
+.svg-inline--fa.fa-search.fa-w-16, .svg-inline--fa.fa-lock.fa-w-14, .svg-inline--fa.fa-unlock.fa-w-14 {
+	font-size: 24px;
+	text-align: center;
+	display: block;
+	width: 100%;
+	color: #4b74ff;
+	margin: 15px 0;
+}
+
+.search {
+	width: 100%;
+	text-align: center;
+}
+
+.search-txt {
+	font-size: 16px;
+	width: 20%;
+	margin: 0 auto 20px;
+	font-weight: 600;
+}
+
+input {
+	display: block;
+	width: 20%;
+	margin: 30px auto 15px;
+	border: 1px solid #aaaaaa5e;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 11px;
+	text-align: right;
+	padding-right: 15px;
+	font-weight: 600;
+}
+
+.primary {
+	width: 20%;
+	padding: 10px;
+	font-size: 11px;
+	font-weight: 600;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	background: #4b74ff;
+}
+
+img {
+	width: 70%;
+	margin: 20px auto;
+	display: block;
+}
