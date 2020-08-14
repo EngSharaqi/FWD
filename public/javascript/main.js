@@ -1,23 +1,3 @@
-// $(document).ready(function(){
-// 	$(".intro").css("height", $(window).height());
-// 	//console.log(window.innerWidth);
-// 	$(".chooses-of-pars").css("height", $(window).height());
-// 	$(".pars").click(function(){
-// 		$(".chooses-of-pars").slideToggle(300);
-// 		$("body").css("overflow-y", "hidden")
-// 		$(".chooses-of-pars").css("overflow-y", "hidden")
-
-		
-// 	});
-// $(".fa-times").click(()=>{
-// 	$(".chooses-of-pars").slideUp();
-// 	$("body").css("overflow-y", "scroll")
-// });
-// });
-
-
-// #4b74ff
-
 $(document).ready(function(){
 	$(".add-btn").click(()=>{
         $(".table").hide();
