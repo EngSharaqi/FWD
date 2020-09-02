@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
                 integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
         <link rel="stylesheet" href="public/stylesheet/main.css">
-        <link rel="stylesheet" href="public/stylesheet/postal.css">
         <title>FWD | طرودي البريدية</title>
 </head>
 
@@ -25,7 +24,7 @@
                                 <ul class="left">
                                         <li style="cursor: pointer"><a href="login.html"><i class="fas fa-power-off"></i></a></li>
                                 </ul>
-                                <ul class="center">
+                                <ul class="center header-links">
 
                                         <li><a href="postal-fee.html">رسوم طرودي</a></li>
                                         <span class="border"></span>
@@ -43,7 +42,7 @@
 
         <div class="row">
                 <div class="container" style="padding: 0 135px;">
-                        <div class="row">
+                        <div class="row tools-bar">
                                 <div class="col-md" style="text-align: left">
                                         <button class="left-b"><i class="fas fa-print"></i> طباعة</button>
                                         <button class="left-b"><i class="fas fa-file-excel"></i> تصدير</button>
@@ -63,7 +62,7 @@
                                 <div class="container">
                                         <div class="row">
                                                 <ul>
-                                                        <ul>
+                                                        <ul class='filter-bar'>
                                                                 <li><button class="left-b" style="color: #fff; background-color: #4b74ff"><i
                                                                                         class="fas fa-search"></i>
                                                                                 بحث</button></li>
@@ -320,28 +319,34 @@
         <div class="filter-table">
                 <form action="/filter" method="post">
                         <div class="overlay">
-                                        <div class="filter-card">
-                                                <div class="row">
-                                                        <ul style="width: 100%; display: flex; justify-content: space-between">
-                                                                <li class="close-filter-card"><i class="fas fa-times-circle"></i></li>
-                                                                <li style="font-size: 14px">فرز الطرود</li>
-                                                        </ul>
-                                                </div>
-                                                <div class="row">
-                                                                <select class="custom-select" name="city-filter" id="city-filter"><option value="city-f">المدينة</option></select>
-                                                                <select class="custom-select" name="status-filter" id="status-filter"><option value="status-f">الحالة</option></select>
-                                                                <input type="text" name="cash" id="cash" placeholder="الصافي للمرسل">
-                                                                <div style="display: flex; justify-content: space-between; width: 100%">
-                                                                        <input style="margin-right: 7.5px" type="date" class="half-inp" placeholder="الى تاريخ">
-                                                                        <input style="margin-left: 7.5px" type="date" class="half-inp" placeholder="من تاريخ">
-                                                                </div>
-                                                                <button class="right-b filter-btn"><i class="fas fa-filter"></i> فرز</button>
-                                                                              
-                                                        </div>
-                
+                                <div class="filter-card">
+                                        <div class="row">
+                                                <ul style="width: 100%; display: flex; justify-content: space-between">
+                                                        <li class="close-filter-card"><i class="fas fa-times-circle"></i></li>
+                                                        <li style="font-size: 14px">فرز الطرود</li>
+                                                </ul>
                                         </div>
+                                        <div class="row">
+                                                <select class="custom-select" name="city-filter" id="city-filter">
+                                                        <option value="city-f">المدينة</option>
+                                                </select>
+                                                <select class="custom-select" name="status-filter" id="status-filter">
+                                                        <option value="status-f">الحالة</option>
+                                                </select>
+                                                <input type="text" name="cash" id="cash" placeholder="الصافي للمرسل">
+                                                <div style="display: flex; justify-content: space-between; width: 100%">
+                                                        <input style="margin-right: 7.5px" type="date" class="half-inp"
+                                                                placeholder="الى تاريخ">
+                                                        <input style="margin-left: 7.5px" type="date" class="half-inp"
+                                                                placeholder="من تاريخ">
+                                                </div>
+                                                <button class="right-b filter-btn"><i class="fas fa-filter"></i> فرز</button>
+
+                                        </div>
+
                                 </div>
-                        </form>
+                        </div>
+                </form>
         </div>
 
         <!-- Scripts -->
