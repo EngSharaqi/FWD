@@ -476,3 +476,56 @@ img {
 	font-weight: 600;
 	font-size: 15px;
 }
+
+/* user registeration */
+svg.svg-inline--fa.fa-user.fa-w-14 {
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: #4b74ff;
+    margin: 15px 0;
+}
+
+.user-reg-form input { width: 25% }
+
+.form-row {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 0px;
+	padding-left: 0px;
+}
+
+input.form-control {
+    font-size: 11px;
+    margin-bottom: 0;
+    padding: 10px;
+    padding-right: 15px;
+    border: 1px solid #aaaaaa5e;
+    display: block;
+    border-radius: 5px;
+	height: auto;
+	width: 100%;
+	margin-top: 0
+}
+
+.user-reg-form select#city-filter {
+    width: 25%;
+    padding: 10px 25px;
+    font-size: 11px;
+    height: auto;
+    margin-bottom: 15px;
+    border: 1px solid #aaaaaa5e;
+	border-radius: 5px;
+	margin-top: 0
+}
+
+.user-reg-form input, .user-reg-form select {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.user-reg-form button{ width: 25% }
